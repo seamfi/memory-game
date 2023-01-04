@@ -1,38 +1,52 @@
-.App {
-  text-align: center;
+@font-face {
+    font-family: 'Lobster';
+    src: local('Lobster-Regular'),
+    url(./Lobster-Regular.ttf) format('truetype');
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+.title{
+    font-family: 'Lobster';
+    color: red;
+    font-size: 3rem;
+    
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+body,html {
+    
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+body{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+
 }
 
-.App-link {
-  color: #61dafb;
+.card {
+    width: 300px;
+    height: 300px;
+    border: 2px solid black;
+    border-radius: 5px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.container {
+    display:flex;
+    justify-content:center;
+    margin-top: 30vh;
+}
+
+.header { 
+    display:flex;
+    justify-content: center;
+    gap: 20px;
+    font-size: 2rem;
+}
+
+
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+
 }
